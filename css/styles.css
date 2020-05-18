@@ -4,7 +4,7 @@
 .wrapper {
         max-width: 900px;
         margin: auto;
-
+        position: relative;
     }    
 .header {
     width: 100%;
@@ -38,13 +38,16 @@ h2{
     width: 0 auto;
 }
 .description-right {
+    box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
     width: 420px;
     margin-bottom: 10px; 
+    padding-left: 60px;
     
 }
 .description-left {
+    box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
     width: 420px;
